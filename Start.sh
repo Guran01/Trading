@@ -1,3 +1,4 @@
+bash
 bash chmod +x start.sh
 #!/bin/bash
 
