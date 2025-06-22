@@ -1,0 +1,26 @@
+├── main.py                         ← Startfil (AI:n startar härifrån)
+├── requirements.txt               ← Beroenden (för pip install)
+├── start.sh                       ← Snabbstart med bash (valfri)
+├── .env.example                   ← Exempel för API-nycklar
+├── README.md                      ← Projektbeskrivning (svenska)
+├── docs/
+│   ├── AI-arkitektur-sv.md        ← Svenska versionen av arkitektur
+│   ├── AI-architecture-en.md      ← Engelska versionen
+│   └── diagram_v1.png             ← Högupplöst systemdiagram
+├── .github/
+│   └── workflows/
+│       └── ci.yml                 ← GitHub Actions (CI/CD-flöde)
+├── src/
+│   ├── strategi_scout/
+│   │   └── scout.py               ← AI för nya strategiförslag
+│   ├── edge_scanner/
+│   │   └── scanner.py             ← Edge-mätning & prestandaövervakning
+│   ├── forslagsminne/
+│   │   └── memory.py              ← Minne för tidigare idéer
+│   ├── datakopplingar/
+│   │   └── apinycklar.py         ← Laddar API-nycklar & validering
+│   └── ui/
+│       ├── dashboard.py          ← Instrumentpanelen (terminalgränssnitt först)
+│       └── komponenter.py        ← Valbara UI-komponenter
+└── tests/
+    └── test_strategier.py        ← Unittester för strategilogik
